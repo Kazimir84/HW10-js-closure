@@ -105,6 +105,13 @@ function lexion(i) {
         console.log('i5 = ', i5+1);
     }
 }
+
+for (var i = 0; i < 10; i++) {
+    setTimeout(lexion2 (i), 0);
+}
+function lexion2 (i) {
+    console.log ('i6 = ', i+1);    
+}
 console.log('-----------------------№4 Вариантов больше нет!)))');
 
 
