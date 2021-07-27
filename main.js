@@ -73,7 +73,7 @@ area ();
 
 console.log('-----------------------№4 Вариант №5');
 
-for (var i=0; i<10; i++) {     
+for (var i = 0; i < 10; i++) {     
     function h (i) {               
         setTimeout(function () {        
             console.log ('i3 = ', i+1);
@@ -86,7 +86,7 @@ for (var i=0; i<10; i++) {
 
 console.log('-----------------------№4 Вариант №6');
 
-for (var i=0; i<10; i++) {                  
+for (var i = 0; i < 10; i++) {                  
     setTimeout(function (i) {        
         console.log ('i4 = ', i+1);
     },0,i);            
