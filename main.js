@@ -30,7 +30,7 @@ for (let i = 0; i < 10; i++) {
 console.log('-----------------------№4 Вариант №2');
 
 for (var i = 0; i < 10; i++) {   
-    setTimeout(function() {
+    setTimeout(function () {
         console.log('i2 = ', i+1);
     }(), 0); 
 }
@@ -97,7 +97,7 @@ for (var i = 0; i < 10; i++) {
 console.log('-----------------------№4 Вариант №7');
 
 for (var i = 0; i < 10; i++) {
-    setTimeout(lexion(i), 0);
+    setTimeout(lexion (i), 0);
 }
 function lexion(i) {
     let i5 = i;
